@@ -6,7 +6,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
     
 .content__box {
@@ -14,19 +13,13 @@ body {
     max-width: 350px;
     padding: 24px;
     border-radius: 15px;
-    
 }
-
-
 
 .box__img {
     max-width: 100%;
     border-radius: 8px;
     transition: 0.3s opacity;
-
 }
-
-
 
 .box__img:hover {
     opacity: 0.5;
@@ -39,15 +32,12 @@ body {
     position: relative;    
 }
 
-
-
 .view__img {
     position: absolute;
     top: 145px;
     left: 150px;
     opacity: 0;
     pointer-events: none;
-  
 }
 
 .box__img-container:hover .view__img {
@@ -66,7 +56,6 @@ body {
 .box__title:hover {
     color: #00FFF8;
     cursor: pointer;
-
 }
 
 .box__subtitle {
@@ -76,8 +65,6 @@ body {
     letter-spacing: 0px;
     color: #8BACD9;
     margin: 16px 0 24px;
-
-
 }
 
 .info {
@@ -100,46 +87,44 @@ body {
 .price {
     display: flex;
 }
-.price__img {
-}
+
 .price__cost {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
     color: #00FFF8;
     margin-left: 6.49px;
-
 }
+
 .time {
     display: flex;
 }
-.time__img {
-}
+
 .time__date {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: #8BACD9;
     margin-left: 9.03px;
-
 }
 
 .creator {
     display: flex;
     align-items: center
 }
+
 .creator__img {
     width: 33px;
     border: 1px solid white;
     border-radius: 100%;
     margin-right: 16px;
 }
+
 .creator__name {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: #8BACD9;
-    
 }
 
 .diff__color {
@@ -158,5 +143,9 @@ body {
 @media (max-width: 375px){
     .box__img-container {
         background-color: transparent;
+    }
+
+    .container {
+        padding: 0 20px;  
     }
 }
